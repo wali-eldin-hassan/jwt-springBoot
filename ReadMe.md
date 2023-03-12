@@ -20,6 +20,7 @@ For building and running the application you need:
 There are several ways to run a Spring Boot application on your local machine. One way is to execute the `main` method in the `java.wali.hassan.jwtmicroServics.JwtMicroServicsApplication` class from your IDE.
 
 ### How To Use ? :shipit:
+```shell
 ###### Run your server
 ###### Open postman
 ###### Visit localhost:8080 or if you have custom port you can use it
@@ -29,7 +30,7 @@ There are several ways to run a Spring Boot application on your local machine. O
 ###### This will give you a token that will be valid for 1 hour
 ###### Now you can use token to visit url like localhost:8080
 ###### The response of this api will hi , admin
-
+```
 ## Copyright
 
 Released under the Apache License 2.0. See the [LICENSE](https://github.com/wali-eldin-hassan/jwt-springBoot/blob/master/LICENSE) file.
