@@ -2,6 +2,10 @@
 
 ## This Demo Is Using Jwt Auth + Basic Auth That came With Spring Security
 
+[![Build Status](https://github.com/wali-eldin-hassan/jwt-springBoot)](https://github.com/wali-eldin-hassan/jwt-springBoot)
+[![Coverage Status](https://coveralls.io/repos/github/codecentric/springboot-sample-app/badge.svg?branch=master)](https://github.com/wali-eldin-hassan/jwt-springBoot)
+[![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
+
 ### How To Use :shipit:?
 ###### Run your server
 ###### Open postman
