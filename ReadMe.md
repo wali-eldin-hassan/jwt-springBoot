@@ -1,8 +1,8 @@
 
 
-##This Demo Is Using Jwt Auth + Basic Auth That came With Spring Security
+## This Demo Is Using Jwt Auth + Basic Auth That came With Spring Security
 
-###How To Use :shipit:?
+### How To Use :shipit:?
 ### Run your server
 ### Open postman
 ### Visit localhost:8080 or if you have custom port you can use it
