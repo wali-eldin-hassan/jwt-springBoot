@@ -13,4 +13,10 @@ public class HomeController {
         return "Hi"+ " "  +  principal.getName();
     }
 
+    @GetMapping("/lorem")
+    public  String Lorem()
+    {
+        return "Hi fuck";
+    }
+
 }
