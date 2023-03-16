@@ -58,7 +58,7 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception{
         return  http.csrf(csrf->csrf.disable())
 
-                .authorizeRequests(auth ->auth.antMatchers("/lorem").permitAll().anyRequest().authenticated())
+                .authorizeRequests(auth ->auth.mvcMatchers("/token").permitAll().anyRequest().authenticated())
 
                 .oauth2ResourceServer(OAuth2ResourceServerConfigurer::jwt )
                 .sessionManagement(session ->session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
